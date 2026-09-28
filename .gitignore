@@ -1,0 +1,9 @@
+build/
+.dart_tool/
+.packages
+.pub/
+android/.gradle/
+android/local.properties
+*.jks
+*.keystore
+.env

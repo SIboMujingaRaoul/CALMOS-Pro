@@ -150,4 +150,4 @@ class _PremiumPageState extends State<PremiumPage>{
     if(method=='ILLICOCASH'||method=='M-Pesa') const Card(child:ListTile(leading:Icon(Icons.phone_android),title:Text('Numéro de paiement configuré'),subtitle:Text('Les coordonnées réelles doivent être protégées et confirmées côté serveur.'))),
     FilledButton(onPressed:(){showDialog(context:context,builder:(_)=>AlertDialog(title:const Text('Paiement'),content:Text('Prototype : $method sera connecté à son canal officiel et vérifié côté serveur.')));},child:const Text('Continuer'))
   ]);}
-move main.dart to lib folder
+
